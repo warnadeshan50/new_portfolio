@@ -1,0 +1,132 @@
+.frame_logo_about_me{
+    background: #C5E898;
+    width: 320px;
+    aspect-ratio: 1/1;
+    border-radius: 100%;
+    position: absolute;
+    border-radius:26% 74% 70% 30% / 55% 52% 48% 45%;
+    box-shadow: #00DFA2 0 0 20px;
+
+    left: 50px;
+    bottom: 0;
+    top: 0;
+    margin: auto;
+}
+.logo_about_me {
+    width: 300px;
+    aspect-ratio: 1/1;
+    position: absolute;
+
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+.details_navbar>ul{
+    text-decoration: none;
+    list-style-type: none;
+
+}
+.details_navbar>ul>li::before{
+    content: "👉";
+}
+.details_navbar>ul>li{
+    display: inline-block;
+    margin-left: 1vw;
+    font-size: 2vw;
+    color: white;
+}
+.details_navbar{
+    width: fit-content;
+    height: fit-content;
+    position: absolute;
+
+    left: 0;
+    right: 0;
+    top :120px;
+    margin: auto;
+}
+.body_details{
+    width: fit-content;
+    height: fit-content;
+    position: absolute;
+
+    left: 0;
+    right: 0;
+    top :190px;
+    margin: auto;
+}
+.details_navbar>ul>li{
+    cursor: pointer;
+    transition: color 1.5s ;
+    user-select: none;
+}
+.details_navbar>ul>li:hover{
+    border-radius: 20px;
+    background: #C5E898;
+    transition: background-color 1.5s;
+}
+.details_title{
+    color : white;
+    font-size: 2vw;
+    font-style: italic;
+    position: relative;
+    /*width: fit-content;*/
+    /*height: fit-content;*/
+
+    left: 14vw;
+    top: 6vh;
+    /*right: 0;*/
+    /*margin: auto;*/
+}
+#myself>ul{
+    color: white;
+    position: relative;
+    font-size: 2vw;
+
+    left: 12vw;
+    top: 10vh;
+}
+#myself>ul>li{
+    list-style-type: none;
+    text-decoration: none;
+    margin: 2vw
+}
+#education>ul{
+    color: white;
+    position: relative;
+    font-size: 2vw;
+
+    left: 12vw;
+    top: 10vh;
+}
+#education>ul>li{
+    list-style-type: none;
+    text-decoration: none;
+    margin: 2vw
+}
+#skills>h3{
+    color: white;
+    font-style: italic;
+    font-size: 30px;
+}
+.skill_list{
+    position: relative;
+    color: navajowhite;
+    font-size: 20px;
+}
+.tools_list{
+    position: relative;
+    color: darksalmon;
+    font-size: 20px;
+
+    bottom:20vw;
+    left:20vw;
+}
+.tools_font{
+    position: relative;
+
+    bottom:20vw;
+    left:20vw;
+}

@@ -1,0 +1,295 @@
+.about_me_img{
+    width: 20vw;
+    aspect-ratio: 1/1;
+    position: absolute;
+
+    right: 0;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+}
+.about_me_img_frame{
+    width: 21vw;
+    aspect-ratio: 1/1;
+    position: absolute;
+    background: aqua;
+    border-radius: 100%;
+    box-shadow: aquamarine 0 0 45px;
+
+    right: 10vw;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+.welcome,.name,.service{
+    color:snow;
+    display: block;
+    text-align: center;
+}
+.welcome_frame{
+    width: 50vw;
+    height: 45vh;
+    position: absolute;
+
+    bottom: 0;
+    top: 20vh;
+    left: 10vw;
+    margin: auto;
+}
+.welcome{
+    font-size: 2vw;
+}
+.name{
+    font-size: 4vw;
+}
+.service{
+    font-size: 2vw;
+}
+.btn_frame{
+    width: fit-content;
+    height: fit-content;
+    position: absolute;
+    bottom: 20vh;
+    right: 20vw;
+    left: 0;
+    margin: auto;
+}
+button {
+    position: relative;
+    appearance: none;
+    background-color:white;
+    border: 0.125em solid #1A1A1A;
+    border-radius: 0.9375em;
+    box-sizing: border-box;
+    color: #3B3B3B;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-size: 16px;
+    font-weight: 600;
+    line-height: normal;
+    margin: 10px 10px 10px 10px;
+    min-height: 3.75em;
+    min-width: 10px;
+    outline: none;
+    padding: 1em 2.3em;
+    text-align: center;
+    text-decoration: none;
+    transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    will-change: transform;
+
+}
+
+button:disabled {
+    pointer-events: none;
+}
+
+button:hover {
+    color: #fff;
+    background-color: #1A1A1A;
+    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+    transform: translateY(-2px);
+}
+
+button:active {
+    box-shadow: none;
+    transform: translateY(0);
+}
+
+.more_details{
+    position: absolute;
+    width: fit-content;
+    height: fit-content;
+
+    bottom: 2vh;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+.more_details>span{
+    color:snow;
+    display: block;
+    text-align: center;
+}
+.icon{
+    position: absolute;
+    display: block;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    background: #333;
+    border-radius: 50%;
+    font-size: 30px;
+    color: #666;
+    transition: .5s;
+
+}
+
+.icon::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background: #ffee10;
+    transition: .5s;
+    transform: scale(.9);
+    z-index: -1;
+}
+
+.icon:hover::before {
+    transform: scale(1.1);
+    box-shadow: 0 0 15px #ffee10;
+}
+
+.icon:hover {
+    color: #ffee10;
+    box-shadow: 0 0 5px #ffee10;
+    text-shadow: 0 0 5px #ffee10;
+}
+.icons_background{
+    position: absolute;
+    width: 100px;
+    height: 50px;
+
+    left: 0;
+    right: 20vw;
+    bottom: 10vh;
+    margin: auto;
+}
+.icon:nth-child(2){
+    left:50px;
+}
+/*----------------------------media query----------------------------*/
+@media only screen and (max-width: 900px) {
+    .about_me_img{
+        width: 25vw;
+        aspect-ratio: 1/1;
+        position: absolute;
+
+        right: 0;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        margin: auto;
+    }
+    .about_me_img_frame{
+        width: 26vw;
+        aspect-ratio: 1/1;
+        position: absolute;
+        background: aqua;
+        border-radius: 100%;
+        box-shadow: aquamarine 0 0 45px;
+
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom:25vh;
+        margin: auto;
+    }
+    .welcome_frame{
+        width: 40vw;
+        height: 60vh;
+        position: absolute;
+
+        bottom: 0;
+        top: 70vh;
+        right: 0;
+        left: 0;
+        margin: auto;
+    }
+    .btn_frame{
+        width: 350px;
+        height: 60px;
+        position: absolute;
+
+        bottom: 110px;
+        right: 0;
+        left: 0;
+        margin: auto;
+    }
+    .icons_background{
+        position: absolute;
+        width: 100px;
+        height: 50px;
+
+        left: 0;
+        right: 0;
+        bottom:50px;
+        margin: auto;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .about_me_img{
+        width: 30vw;
+        aspect-ratio: 1/1;
+        position: absolute;
+
+        right: 0;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        margin: auto;
+    }
+    .about_me_img_frame{
+        width: 32vw;
+        aspect-ratio: 1/1;
+        position: absolute;
+        background: aqua;
+        border-radius: 100%;
+        box-shadow: aquamarine 0 0 45px;
+
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom:30vh;
+        margin: auto;
+    }
+    .welcome{
+        font-size: 2.5vw;
+    }
+    .name{
+        font-size: 5vw;
+    }
+    .service{
+        font-size: 3vw;
+    }
+    .welcome_frame{
+        width: 40vw;
+        height: 60vh;
+        position: absolute;
+
+        bottom: 0;
+        top: 65vh;
+        right: 0;
+        left: 0;
+        margin: auto;
+    }
+    .btn_frame{
+        width: 350px;
+        height: 60px;
+        position: absolute;
+
+        bottom: 110px;
+        right: 0;
+        left: 0;
+        margin: auto;
+    }
+    .icons_background{
+        position: absolute;
+        width: 100px;
+        height: 50px;
+
+        left: 0;
+        right: 0;
+        bottom:50px;
+        margin: auto;
+    }
+}
